@@ -1,0 +1,32 @@
+body{
+    font-family: arial;
+}
+
+/* input */
+
+.inputBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 350px;
+    min-width: 500px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.inputBox form{
+    width: 100%;
+}
+
+.inputBox span{
+    margin-left: 1em;
+}
+
+.inputBox span a{
+    text-decoration: none;
+}
